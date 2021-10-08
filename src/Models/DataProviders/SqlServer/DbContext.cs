@@ -16,7 +16,7 @@ namespace Models.DataProviders.SqlServer
         public DbSet<Course> Courses { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder) 
         {
-            dbContextOptionsBuilder.UseSqlServer(@"Data Source=DBSRV\MSSQL2021;Initial Catalog=MvvmTemplateDBSVI;Integrated Security=True");
+            dbContextOptionsBuilder.UseSqlServer(@"Data Source=DBSRV\MSSQL2021;Initial Catalog=MI;Integrated Security=True");
 
         }
     }
