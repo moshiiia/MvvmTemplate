@@ -10,7 +10,6 @@ namespace Models.Entities
     {
         public Guid Id { get; init; }
         public string Name { get; set; }
-        public Guid StudentId { get; set; }
         public virtual IList<Student> Students { get; set; } = new List<Student>();
     }
 }
