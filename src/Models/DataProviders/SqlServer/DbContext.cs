@@ -10,7 +10,7 @@ using Models.Entities;
 
 namespace Models.DataProviders.SqlServer
 {
-    class DbContext : Microsoft.EntityFrameworkCore.DbContext
+    public class DbContext : Microsoft.EntityFrameworkCore.DbContext
     {
         public DbSet<Student> Students { get; set; }
         public DbSet<Course> Courses { get; set; }

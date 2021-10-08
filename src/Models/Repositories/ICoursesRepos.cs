@@ -7,7 +7,7 @@ using Models.Entities;
 
 namespace Models.Repositories
 {
-    interface ICoursesRepos
+    public interface ICoursesRepos
     {
         IQueryable<Course> Items();
         Course GetItemById(Guid id);

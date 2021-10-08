@@ -7,5 +7,5 @@ using Models.Repositories;
 
 namespace Models
 {
-    record DataManager(IStudentsRepos StudentsRepos, ICoursesRepos CoursesRepos);
+    public record DataManager(IStudentsRepos StudentsRepos, ICoursesRepos CoursesRepos);
 }
